@@ -61,18 +61,24 @@ console.log(say);
 
 1. Create an array named `weekend` with just 'Saturday' in it
 <br><br>
+## Answer
+var weekend = ['Saturday'];
 
 2. Add 'Sunday' to the end of the `weekend` array
 <br><br>
+weekend.push('Sunday');
 
 3. Add 'Friday' to the front to the front of the `weekend` array
 <br><br>
+weekend.unshift('Friday');
 
 4. Access 'Saturday' in the array and assign to a variable named `day`
 <br><br>
+var day = weekend[1];
 
 5. Remove 'Friday' from the array
 <br><br>
+weekend.shift()
 
 ### Data Structures - JS Objects
 
