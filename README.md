@@ -7,14 +7,28 @@
 1. Make two directories inside `~/buffy`: `scoobies` and `vamps`
 <br><br><br>
 
+## Answer
+mkdir scoobies
+mkdir vamps
+
 2. Make files in `scoobies` named `buffy.txt`, `giles.txt` and `angel.txt`
 <br><br><br>
 
+## Answer
+cd scoobies
+touch buffy.txt
+touch giles.txt
+touch angel.txt
+
 3. Copy `angel.txt` into the `vamps` directory
 <br><br>
+## Answer
+cp /angel.txt ./vamps
 
 4. Delete the `vamps` directory and everything inside it
 <br><br>
+## Answer
+rm /vamps
 
 ### JS Variables
 
