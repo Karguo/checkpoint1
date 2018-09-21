@@ -109,5 +109,17 @@ dayDream.lunch = 'pudding';
 1. Write a function to return the area of a rectangle (the product of its length and its width)
 <br><br>
 
+var area = function (length, width) {
+    return length * width;
+}
+var perimeter = function (length, width) {
+    return 2 * (length + width);
+}
+console.log(area + perimeter);
+
 2. Invoke the function with `3` and `4` as arguments and save it to a variable named `result`
 <br><br>
+
+var result = function (3, 4) {
+
+}
